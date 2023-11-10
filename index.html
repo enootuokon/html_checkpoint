@@ -6,6 +6,7 @@
     <title>Eno Profile</title>
 </head>
 <body>
+    <!--Created semantic tag  header which contains the navigation -->
     <header>
 
         <nav>
@@ -15,20 +16,51 @@
           <a href="#resume">Resume</a>
           <a href="#contact">Contact</a>  
         </nav>
+        <!--Video -->
+        <div>
+            <video autoplay loop muted >
+                <source src="./res/_TwinklePixels12451_FPpreview.mp4" type="video/mp4">
+              </video>
+        </div>
     </header>
+     <!--Created semantic tag  main which contains the main content of the website-->
     <main>
         <section>
            <h1><a name="about">About Eno Otuokon</a></h1>
+           <!--Eno picture image -->
+           <img src="./res/IMG_6363.JPG" alt="Eno picture" width="200" height="200">
+           
+            <h2>Summary</h2>
+           <p>
+            An experienced Project manager / IT Consultant with 21 years of experience executing 
+            enterprise solutions in support of improving organizational productivity, efficiency, and growth through accurately solving complex business problems.
+           </p>
+           
+           
         </section>
         <section>
            <h1><a name="work">My Work</a></h1> 
+           <p><strong>Project Manager/ IT Consultant</strong></p>
+           <ul>
+            <li>All African Games (COJA) Infrastructure planning and Implementation.</li>
+            <li>Startec Connection telecoms infrastructure rollout in 5 states.</li>
+            <li>Enterprise Management Security (EMS) Project implementation at Central Bank og Nigeria.</li>
+            <li>development of software test and information system audit guidlines for National information Technology Development Agency.</li>
+            <li>Ladima Foundation website and e-learning application development.</li>
+           </ul>
         </section>
         <section>
             <h1><a name="resume">My Resume</a></h1> 
+            <ul>
+                <li>
+                    https://www.linkedin.com/in/eno-otuokon-b1088769/
+                </li>
+            </ul>
         </section>
         <section>
             <h1><a name="contact">My Contact</a></h1>
             <p></p>
+            <!--Form for contact section-->
             <form action="">
                 <label for="fname">First Name:</label><br>
                 <input type="text" id="fname" size="31"><br>
@@ -45,9 +77,12 @@
         </section>
     </main>
     <footer>
+        <!--Top link takes you back to the nav section-->
         <p><a href="#home">Top</a></p>
+
+        <!--Audio player add below-->
         <p>Motivational Music</p>
-        <audio controls autoplay src="./res/motivational-corporate-medium1-110677.mp3">
+        <audio controls src="./res/motivational-corporate-medium1-110677.mp3">
             <a href="./res/motivational-corporate-medium1-110677.mp3"></a>
 
         </audio>
