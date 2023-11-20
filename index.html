@@ -4,89 +4,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./res/browser_9549209.png" type="image/x-icon">
+    
     <title>Eno Profile</title>
 </head>
-<body>
+<body style="margin: 0; padding: 0;">
     <!--Created semantic tag  header which contains the navigation -->
-    <header>
+    <header style="background-color: azure;">
 
-        <nav>
-          <a name="home">Home</a>
-          <a href="#about">About</a>
-          <a href="#work">Work</a>
-          <a href="#resume">Resume</a>
-          <a href="#contact">Contact</a>  
-        </nav>
-        <!--Video -->
-        <div>
-            <video autoplay loop muted >
-                <source src="./res/_TwinklePixels12451_FPpreview.mp4" type="video/mp4">
-              </video>
+    <nav style="display: flex; gap: 20px; justify-content: flex-end; margin-right: 100px; padding-top: 30px; text-decoration: none;">
+        <a style="text-decoration: none; font-size: 20px; color: black;" id="home">Home</a>
+        <a style="text-decoration: none; font-size: 20px; color: black;" href="#about">About</a>
+        <a style="text-decoration: none; font-size: 20px; color: black;" href="#work">Work</a>
+        <a style="text-decoration: none;font-size: 20px; color: black;" href="http://linkedin.com/in/eno-otuokon-b1088769/ " target="_blank">Resume</a>
+        <a style="text-decoration: none;font-size: 20px;  color: black;"  href="#contact">Contact</a>  
+    </nav>
+
+        <div style="display: flex; justify-content: center; margin-top: 200px; padding-bottom: 100px;">
+            <div style="padding-right: 100px;">
+                <h1 style="font-size: 40px;">Productivity efficiency and growth</h1>
+                <p style="font-size:25px; margin-top: -20px;"> Cornerstone for solving complex business problems</p>
+            </div>
+            <div>
+                <img src="./res/portfolio.png" alt="portfolio picture" width="350px">
+            
+            </div>
+            
+            
         </div>
     </header>
-     <!--Created semantic tag  main which contains the main content of the website-->
-    <main>
-        <section>
-           <h1><a name="about">About Eno Otuokon</a></h1>
-           <!--Eno picture image -->
-           <img src="./res/IMG_6363.JPG" alt="Eno picture" width="200" height="200">
-           
-            <h2>Summary</h2>
-           <p>
-            An experienced Project manager / IT Consultant with 21 years of experience executing 
-            enterprise solutions in support of improving organizational productivity, efficiency, and growth through accurately solving complex business problems.
-           </p>
-           
-           
+    <!--Created semantic tag  main which contains the main content of the website-->
+    <main >
+        <section >
+            <div style="display: flex; justify-content: center; gap: 70px; padding-top: 50px; padding-bottom: 50px;">
+                <div>
+                    
+                    <!--Eno picture image -->
+                    <img  style="border-radius: 50%;" src="./res/IMG_6363.JPG" alt="Eno picture" width="250">
+                </div>
+    
+                <div style="display: block; width: 600px;">
+                    <h2 style="font-size: 25px"><a id="about">About Me</a></h2>
+                    <p style="line-height: 1.5;font-size: 18px;">
+                        With 21 years of expertise in project management and IT consulting, I specialize in delivering efficient 
+                        enterprise solutions. Proficient in Agile and Waterfall methodologies, I ensure on-time, within-budget project completion.
+                        My track record highlights driving business growth through strategic implementations, showcasing adaptability. 
+                        As a collaborative leader, I excel in effective client relationship management. Committed to continuous learning, 
+                        I stay current with industry trends through certifications, reflecting a dedicated career focused on innovative and 
+                        impactful solutions for organizational success.
+                    </p>
+                </div>
+
+            </div>
         </section>
-        <section>
-           <h1><a name="work">My Work</a></h1> 
-           <p><strong>Project Manager/ IT Consultant</strong></p>
-           <ul>
-            <li>All African Games (COJA) Infrastructure planning and Implementation.</li>
-            <li>Startec Connection telecoms infrastructure rollout in 5 states.</li>
-            <li>Enterprise Management Security (EMS) Project implementation at Central Bank og Nigeria.</li>
-            <li>development of software test and information system audit guidlines for National information Technology Development Agency.</li>
-            <li>Ladima Foundation website and e-learning application development.</li>
-           </ul>
-        </section>
-        <section>
-            <h1><a name="resume">My Resume</a></h1> 
-            <ul>
-                <li>
-                   <a href="https://www.linkedin.com/in/eno-otuokon-b1088769/" target="_blank">My Linkin Page</a> 
-                </li>
+        <section style="background-color: rgba(238, 237, 237, 0.471);padding-top: 50px; padding-bottom: 50px ;">
+            <div style="display: flex; justify-content: center; gap: 70px;">
+                <div style="display: block; width: 400px; ">
+                    <h2 style="font-size: 25px;"><a id="work">My Work</a></h2> 
+            <ul style="line-height: 1.5; font-size: 18px; justify-content: ;">
+                <li>All African Games (COJA) Infrastructure planning and Implementation.</li>
+                <li>Startec Connection telecoms infrastructure rollout in 5 states.</li>
+                <li>Enterprise Management Security (EMS) Project implementation at Central Bank og Nigeria.</li>
+                <li>development of software test and information system audit guidlines for National information Technology Development Agency.</li>
             </ul>
+                </div>
+                
+            <video width="600" controls >
+                <source src="./res/video1_1.mp4">
+            </video>
+
+            </div>
         </section>
-        <section>
-            <h1><a name="contact">My Contact</a></h1>
-            <p></p>
-            <!--Form for contact section-->
-            <form action="">
-                <label for="fname">First Name:</label><br>
-                <input type="text" id="fname" size="31"><br>
-
-                <label for="surname">Surname:</label><br>
-                <input type="text" id="surname" size="31"><br>
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" size="31"><br>
-
-                <label for="message">Message:</label><br>
-                <textarea name="message" id="message" cols="30" rows="10"></textarea>
-
-            </form>
-        </section>
+        
     </main>
     <footer>
-        <!--Top link takes you back to the nav section-->
-        <p><a href="#home">Top</a></p>
 
-        <!--Audio player add below-->
-        <p>Motivational Music</p>
-        <audio controls src="./res/motivational-corporate-medium1-110677.mp3">
-            <a href="./res/motivational-corporate-medium1-110677.mp3"></a>
+        <section style="justify-content: center; display: flex; gap: 100px; padding-top: 100px; padding-bottom: 50px;">
+            
+            <div>
+                <ul style="text-decoration: none; list-style-type: none; text-decoration: nono;line-height: 1.5;">
+                <li><a style="text-decoration: none; font-size: 20px;color: black;" href="#home">Home</a></li>
+                <li> <a style="text-decoration: none; font-size: 20px; color: black;" href="#about">About</a></li>
+                <li> <a style="text-decoration: none; font-size: 20px; color: black;" href="#work">Work</a></li>
+                <li><a style="text-decoration: none;font-size: 20px; color: black;" href="http://linkedin.com/in/eno-otuokon-b1088769/ " target="_blank">Resume</a></li>
+                <li><a style="text-decoration: none;font-size: 20px; color: black;"  id="contact"></a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <a href="http://linkedin.com/in/eno-otuokon-b1088769/ " target="_blank""><img src="./res/linkedin.png" width="25px" alt="linkedin"></a>
+                <a href="https://github.com/enootuokon"><img src="./res/github.png" width="25px" alt="github"></a>
+                <img src="./res/facebook.png" width="25px" alt="facebook">
+                <img src="./res/instagram.png" width="25px" alt="instagram">
+            </div>
+            <!--Form for contact section-->
+            <div>
 
-        </audio>
+                <form action="">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="fname" size="31"><br>
+    
+                    
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" size="31"><br>
+    
+                    <label for="message">Message:</label><br>
+                    <textarea name="message" id="message" cols="30" rows=""></textarea> <br>
+                    <input type="submit" value="Send">
+                    
+    
+                </form>
+            
+
+            </div>
+    </section>
+        
     </footer>
 
 
